@@ -22,7 +22,7 @@ function fullscreen() {
       }
 }
 invert()
-setInterval(invert, 50)
+setInterval(invert, 100)
 
 body.requestPointerLock = body.requestPointerLock ||
                             body.mozRequestPointerLock||
