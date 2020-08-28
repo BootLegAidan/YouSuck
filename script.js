@@ -30,7 +30,7 @@ body.requestPointerLock = body.requestPointerLock ||
 
 body.onmousemove = function() {
   body.requestPointerLock()
-      body.webkitRequestFullscreen()
+     //body.webkitRequestFullscreen()
 }
 
 function keyPress(){
