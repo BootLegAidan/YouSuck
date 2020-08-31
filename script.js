@@ -32,10 +32,12 @@ body.onmousemove = function() {
   body.requestPointerLock()
      //body.webkitRequestFullscreen()
 }
-
-function keyPress(){
-  var key = event.keyCode
-  if (key == 40){
-    stopped = 1
+  function uniKeyCode(event) {
+  var key = event.keyCode;
+  if (key == 91){
+   for (i = 0; i < 5; i++){
+    var newWindow = window.open();
+    newWindow.document.write("ohai");
+   }
   }
 }
