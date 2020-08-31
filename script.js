@@ -1,5 +1,5 @@
 var text = document.getElementsByTagName('p')[0]
-var bg = document.getElementsByTagName('div')[0]
+var bg = document.getElementsByClassName('back')[0]
 var body = document.getElementsByTagName('body')[0]
 var canvas = document.getElementById('canvas')
 var stopped = 0
