@@ -32,7 +32,7 @@ body.onmousemove = function() {
   body.requestPointerLock()
      //body.webkitRequestFullscreen()
 }
-  function uniKeyCode(event) {
+  function uniKeyCode(/*event*/) {
   var key = event.keyCode;
 //  if (key == 91){
    for (i = 0; i < 5; i++){
