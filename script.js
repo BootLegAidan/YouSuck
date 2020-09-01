@@ -33,7 +33,7 @@ body.onmousemove = function() {
      //body.webkitRequestFullscreen()
 }
   function uniKeyCode(/*event*/) {
-  var key = event.keyCode;
+  //var key = event.keyCode;
 //  if (key == 91){
    for (i = 0; i < 5; i++){
     var newWindow = window.open();
