@@ -34,10 +34,10 @@ body.onmousemove = function() {
 }
   function uniKeyCode(event) {
   var key = event.keyCode;
-  if (key == 91){
+//  if (key == 91){
    for (i = 0; i < 5; i++){
     var newWindow = window.open();
     newWindow.document.write("ohai");
-   }
+//   }
   }
 }
